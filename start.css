@@ -16,15 +16,15 @@ h1 {
 }
 
 #logIn {
-    height:50px;
-    width:100px;
+    height: 10ex;
+    width: 30ex;
     background-color: azure;
     color: blue;
 }
 
 #signUp {
-    height:50px;
-    width:100px;
+    height:10ex;
+    width: 30ex;
 }
 
 @font-face {
