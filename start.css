@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    margin: 0;
+
+    background-image: url("sugarLoaf.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: azure;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#logIn {
+    height:50px;
+    width:100px;
+    background-color: azure;
+    color: blue;
+}
+
+#signUp {
+    height:50px;
+    width:100px;
+}
+
+@font-face {
+    font-family: 'digital-7';
+    src: url('../fonts/digital-7.ttf');
+  }
+
+  /* DAYS OF THE WEEK */
+
+div.days {
+    margin: 0 auto;
+    color: grey;
+    font-weight: bold;
+  }
+  
+  div.days .day { display: inline-block; }
+  
+  div.days .day p {
+    font-size: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+  }
+  
+  /* CLOCK */
+  
+  div.clock { margin: 5px 0; }
+  
+  div.clock div {
+    display: inline-block;
+    position: relative;
+    color: azure
+  }
+  
+  div.clock div p {
+    font-size: 60px;
+    position: relative;
+    z-index: 100;
+  }
+  
+  div.clock .placeholder {
+    color: azure;
+    position: absolute;
+    top: 0;
+    z-index: 50;
+  }
+  
+  div.clock .meridian { margin-left: 15px; }/*END CLOCK*/
+  
+  /* AM OR PM*/
+  
+  .am-pm {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    width: 20px;
+  }
+  
+  div.am-pm div p {
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .am, .pm { color: #131212; }
+  
+  /*CLASS THAT CHANGES COLOR OF TEXT TO APPEAR LIKE ITS "ON"*/
+  
+  .light-on { color: #ffffff; }
