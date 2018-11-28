@@ -23,5 +23,5 @@ function addUser(){
   document.getElementById('passwordInput').value = "";
   document.getElementById('confirmPasswordInput').value = "";
 
-  
+  location.href='start.html'
 }
