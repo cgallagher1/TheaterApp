@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
     <link rel="stylesheet" href="signup.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 </head>
@@ -27,8 +28,8 @@
         <br>
         <div class="row text-center">
             <div class="col-sm-4 col-sm-offset-4">
-            <label for="email" id="emailLabel" class="font-weight-bold">Email</label>
-            <input type="email" class="form-control" id="emailInput" placeholder="you@example.com" required="required" name="userEmail"
+            <label for="username" id="usernameLabel" class="font-weight-bold">Username</label>
+            <input type="text" class="form-control" id="usernameInput" placeholder="username" required="required" name="username"
             />
             </div>
         </div>
@@ -50,11 +51,12 @@
         </div>
         <br>
         <div class="row text-center">
-            <button id="SignUpButton" class="btn btn-primary">Submit</button>
+            <button id="SignUpButton" type="button" class="btn btn-primary" onclick="addUser()">Submit</button>
         </div>
         <br>
         <br>
     </form>
+    <script src="signupJS.js"></script>
 </body>
 
 </html>
